@@ -3,12 +3,12 @@ import Label from "../atoms/Label";
 
 function Field(props) {
     return (
-        <div style={{width:"80%"}}>
+        <div style={{width:"70%", height:"5px"}}>
             <div>
                 <Label text={props.text}/>
             </div>
             <div>
-                <Input type={props.type} placeholder={props.placeholder} val={props.val} fnVal={props.fnVal}/>
+                <Input type={props.type} placeholder={props.placeholder} val={props.val} fnVal={props.fnVal} />
             </div>
         </div>
       );

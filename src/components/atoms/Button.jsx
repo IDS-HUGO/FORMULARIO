@@ -7,10 +7,11 @@ const ButtonStyled = styled.button`
     border-radius: 5px;
     color: white;
     font-size: 18px;
+    font-weight: 700;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
     &:hover {
-        background-color: #5257de;
+        background-color: #ff0000;
     }
 `;
 

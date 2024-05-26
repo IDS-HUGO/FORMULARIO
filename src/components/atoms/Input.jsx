@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 const InputStyled = styled.input`
     width: 100%;
-    height: 40px;
-    border: 1px gray solid;
+    height: 40px gray solid;
     border-radius: 5px;
     font-size: 20px;
-    color: #0308a3;
+    color: #7f82cb;
     padding: 0 10px;
 `;
 
