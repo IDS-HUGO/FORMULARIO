@@ -57,7 +57,7 @@ function SectionLogin() {
         }
 
         document.getElementById('transferencias').innerHTML = content;
-    };
+    }
 
 
 
@@ -72,12 +72,12 @@ function SectionLogin() {
             <Field type="text" placeholder="Destinatario" text="Tutor de la tarjeta" val ={tutor} fnVal={setTutor}/>
             <Field type="number" placeholder="$00.00" text="Monto:" val ={monto} fnVal={setMonto}/>
             <Field type="text" placeholder="Concepto" text="Concepto" val ={concepto} fnVal={setConcepto}/>
-            <Field type="number" placeholder="NIP" text="NIP (Confirmar Transferencia)" val ={nip} fnVal={setNip}/>
+            <Field type="password" placeholder="NIP" text="NIP (Confirmar Transferencia)" val ={nip} fnVal={setNip}/>
             <Field type="date"  text="Date" val={date} fnVal={setDate}/>
             <Button title="REALIZAR TRANFERENCIA" onclick={handlerClick} />
             <Button id='view-transfer' title="IMPRIMIR TRANSFERENCIAS" onclick={view} />
         </div> 
-        <div>
+        <div id='transf'>
             <div id='transferencias'></div>
         </div>
         
