@@ -8,6 +8,7 @@ function Home() {
         </div>
         <div id="login-home">
             <SectionLogin></SectionLogin>
+            
         </div>
         
         
