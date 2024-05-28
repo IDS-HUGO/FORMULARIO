@@ -1,6 +1,20 @@
 export class Node {
+    #data
+    #next
     constructor(element) {
-        this.element = element;
-        this.next = undefined;
+        this.#data = element
+        this.#next = undefined
+    }
+
+    getData(){
+        return this.#data
+    }
+
+    getNext(){
+        return this.#next
+    }
+
+    setNext(node){
+        this.#next = node
     }
 }

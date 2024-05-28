@@ -15,9 +15,9 @@ const ButtonStyled = styled.button`
     }
 `;
 
-function Button({title, onclick}){
+function Button({title, onClick}){
     return(
-        <ButtonStyled onClick={onclick}>{title}</ButtonStyled>
+        <ButtonStyled onClick={onClick}>{title}</ButtonStyled>
     )
 }
 
